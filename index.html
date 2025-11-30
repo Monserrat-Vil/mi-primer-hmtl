@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Mi blog</title>
+</head>
+<body>
+    <header>
+        <h1> Bienvenidos a mi blog</h1>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#sobre-mi">Acerca de</a>
+            <a href="#contactame">Contacto</a>
+        </nav>
+    </header>
+    <main id="inicio" class="start">
+        <section>
+            <h2>Mi nombre es Mon Rodríguez</h2>
+            <p>Soy <em>ingeniera</em> en <strong>sistemas computacionales</strong> </p>
+            <img src="/src/img/tech_pic.jpg" alt="Fotografia de Mon">
+        </section>
+    </main>
+    <div id="sobre-mi">
+        <h2>Sobre mi</h2>
+        <p>Soy entusiasta en programación, análisis de datos, y feminismo.</p>
+        <br>
+        <p>Mis pasatiempos favoritos son: </p>
+            <ul>
+                <li>Programar</li>
+                <li>Bailar</li>
+                <li>Aprender idiomas</li>
+                <li>Leer ficción y libros académicos</li>
+                <li>Ver series y anime</li>
+            </ul>
+            <p>Mis redes sociales son: </p>
+            <ol>
+                <li>Instagram: <a href="">Mon Rodríguez</a></li>
+                <li>Github: <a href="https://github.com/Monserrat-Vil">Monserrat <span>emoji</span> Vil</a></li>
+            </ol>
+    </div>
+
+    <div id="contactame">
+
+    </div>
+        <form action="#" method="post">
+            <h2>Contáctame</h2>
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br>
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
+            <input type="submit" value="Enviar">
+        </form>
+
+    <footer>
+        <p> 2025 Mi blog. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
