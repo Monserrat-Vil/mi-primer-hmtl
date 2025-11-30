@@ -1,0 +1,14 @@
+body {
+    background-color: blueviolet;
+}
+
+.start{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: darkslateblue;
+    color: aliceblue;
+}
+
+img {
+    width: 200px;
+    border-radius: 25%;
+}
